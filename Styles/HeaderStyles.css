@@ -8,8 +8,8 @@
     /* border-style: none; */
     /* box-shadow: 4px 4px 10px #1e2224, -4px -4px 8px #434b51,
       inset -4px -4px 10px -2px #1e2224, inset 4px 4px 8px -2px #434b51; */
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 17px;
+    font-weight: 300;
     horiz-align: center;
     vertical-align: center;
 }
@@ -21,6 +21,7 @@
     align-items: stretch;
 }
 
+
 .header {
     background: #55792a;
 }
@@ -28,7 +29,6 @@
 .newPointer {
     cursor:pointer;
 }
-
 
 
 .nav-footer__item {
