@@ -29,31 +29,3 @@
 .newPointer {
     cursor:pointer;
 }
-
-
-.nav-footer__item {
-    margin: 0 40px 20px 0; }
-@media (min-width: 620px) and (max-width: 1023px) {
-    .nav-footer__item {
-        margin: 0 20px 20px; } }
-@media (max-width: 619px) {
-    .nav-footer__item {
-        margin: 0; } }
-
-.nav-footer__link {
-    display: grid;
-    color: #623e63;
-    font-size: 16px;
-    transition: 0.2s; }
-.nav-footer__link:hover {
-    color: #56bdc5; }
-@media (max-width: 619px) {
-    .nav-footer__link {
-        padding: 10px 0 12px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-        color: rgba(255, 255, 255, 0.6); }
-    .nav-footer__link:hover {
-        color: #fff; } }
-@media (max-width: 479px) {
-    .nav-footer__link {
-        padding: 11px 0 14px; } }

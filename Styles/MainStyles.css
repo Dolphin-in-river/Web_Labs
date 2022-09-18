@@ -8,15 +8,18 @@
     padding: 10px;
 }
 
+
 .header {
     background: #55792a;
 }
 
 .BigText{
     font-size: 20.5px;
+    line-height: 1.5;
 }
 .VBigText{
     font-size: 22px;
+    line-height: 1.5;
 }
 
 .importantThings{
@@ -29,6 +32,7 @@
     font-weight: 300;
     border-radius: 15px;
 }
+
 
 
 IMG.fig {
