@@ -47,6 +47,10 @@
     text-transform: capitalize;
 }
 
+.normal-white-space{
+    white-space: normal;
+}
+
 .shadow-for-blocks{
     box-shadow: 10px 5px 5px darkseagreen;
 }
