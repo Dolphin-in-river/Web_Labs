@@ -6,63 +6,66 @@
   <meta name="keywords" content="Продукты, овощи, фрукты, онлайн-рынок, интернет-магазин">
   <meta name="description" content="Первый онлайн-рынок по продаже продуктов с огорода">
   <link rel="shortLogo" href="Images/logo_sadfarmer.png" type="image/png">
-  <link rel="stylesheet" href="Styles/HeaderStyles.css" type="text/css">
-  <link rel="stylesheet" href="Styles/MainStyles.css" type="text/css">
+  <link rel="stylesheet" href="Styles/Layouts/headerStyles.css" type="text/css">
+  <link rel="stylesheet" href="Styles/Layouts/mainStyles.css" type="text/css">
+  <link rel="stylesheet" href="Styles/Layouts/footerStyles.css" type="text/css">
+  <link rel="stylesheet" href="Styles/Base/baseStyles.css" type="text/css">
+  <link rel="stylesheet" href="Styles/Modules/modules.css" type="text/css">
+  <link rel="stylesheet" href="Styles/Themes/themeStyles.css" type="text/css">
 </head>
 <body>
 
-<header>
-  <nav class="header">
-    <a class="nav-button" href="">Местоположение</a>
+<header class="shadow-for-blocks">
+  <nav class="l-nav-bar nav-bar-theme">
+    <a class="l-nav-bar-button nav-bar-button-theme" href="">Местоположение</a>
     <a href="./index.html">
       <img alt="gif with a bug" class="logotype" src="Gif/bug.gif">
     </a>
-    <a class="nav-button" href="./aboutCompany.html">О компании</a>
-    <a class="nav-button" href="">Доставка и оплата</a>
-    <a class="nav-button" href="">Контакты</a>
-    <a class="nav-button" href="">Войти</a>
+    <a class="l-nav-bar-button nav-bar-button-theme" href="./aboutCompany.html">О компании</a>
+    <a class="l-nav-bar-button nav-bar-button-theme" href="">Доставка и оплата</a>
+    <a class="l-nav-bar-button nav-bar-button-theme" href="">Контакты</a>
+    <a class="l-nav-bar-button nav-bar-button-theme" href="">Войти</a>
   </nav>
 </header>
 
-<main class="my-main">
-  <section class="head-main">
-    <h1 align="center">
+<main class="l-main main-theme shadow-for-blocks">
+  <section class="l-main-section">
+    <h1 class="header-text">
       О нас
-      <img class="fig" src="Images/produktovyy-magazin.jpg" height="400" width="711" alt="photo of a food store">
+      <img class="fig" src="Images/produktovyy-magazin.jpg" alt="photo of a food store">
     </h1>
-    <h2>
+    <h2 class="header-text">
       Мы рады приветствовать вас на сайте нашего онлайн-рынка!
     </h2>
     <p>
       Несмотря на то, что торговая сеть «SadFarmer» начала формироваться недавно, уже к настоящему времени мы завоевали доверие покупателей.
       В любой сезон на полках наших торговых точек только <i>свежие</i> овощи, фрукты, ягоды, грибы и зелень,
-      а также <i>качественные</i> сухофрукты и орехи.
+      а также <i>качественные</i> сухофрукты и орехи. Откуда появилось название SadFarmer? На самом деле никакого секрета нет.
+      Просто становится грустно, когда видим, что миллионы сограждан проходят мимо полезной пищи и в выборе между быстрой едой и здоровой выбирают первую.
+      Именно поэтому мы создали наш сервис, чтобы каждый человек мог, не выходя из дома, выбрать лучшее для себя предложение.
     </p>
   </section>
-  <article class="important-things">
+  <article class="important-things important-things-theme">
       Наше главное отличие - возможность прямого общения с продавцом. С помощью этого механизма вы можете уточнить интересующую вас информацию о товаре, а также немного сбить цену.
     Это помогает нам <strong>всегда</strong> быть в курсе происходящего и решать <b>любые</b> возникающие трудности!
   </article>
 
-  <section class="head-main">
-    <img class="fig" src="Images/vegetables.jpg" height="533" width="711" alt="image">
-    <p>
-      Откуда появилось название SadFarmer? На самом деле никакого секрета нет.
-      Просто становится грустно, когда видим, что миллионы сограждан проходят мимо полезной пищи и в выборе между быстрой едой и здоровой выбирают первую.
-      Именно поэтому мы создали наш сервис, чтобы каждый человек мог, не выходя из дома, выбрать лучшее для себя предложение. Итак, вы выбираете, а все остальное мы берем на себя. Загибайте пальцы:
+  <section class="l-main-section">
+    <img class="fig" src="Images/vegetables.jpg" alt="photo of a vegetables">
+    <p>Итак, вы выбираете, а все остальное мы берем на себя. Загибайте пальцы:
     </p>
-    <ul>
+    <ul class="iteration">
       <li>
-        <i>Контроль качества.</i>
+        <i class="text-underline">Контроль качества.</i>
       </li>
       <li>
-        <i>Минимальное использование химии для выращивания.</i>
+        <i class="text-underline">Минимальное использование химии для выращивания.</i>
       </li>
       <li>
-        <i>Удобная оплата.</i>
+        <i class="text-underline">Удобная оплата.</i>
       </li>
       <li>
-        <i>А простота совершения заказа сравнится с данным кодом:</i>
+        <i class="text-underline">А простота совершения заказа сравнится с данным кодом:</i>
         <pre><code>
           public static void Main(String[] args)
           {
@@ -72,14 +75,14 @@
       </li>
     </ul>
 
-    <aside>Наша компания развивается по формуле успеха Эйнштейна:
+    <aside  class="big-text">Наша компания развивается по формуле успеха Эйнштейна:
 
     A = X<sup>1</sup> + Y<sup>1</sup> + Z<sup>1</sup>,
     где А - означает успех, X - работу, Y - игру, а Z - молчание.
     </aside>
-    <p>В заключение, стоит отметить, что при выборе у вас не будет такой же безысходности, как здесь:</p>
+    <p  class="big-text">В заключение, стоит отметить, что при выборе у вас не будет такой же безысходности, как здесь:</p>
     <pre>
-     <q>— Окна не открывать!
+     <q class="big-text">— Окна не открывать!
       — Так душно же...
       — Комары налетят!
       — А мы свет выключим...
@@ -88,22 +91,22 @@
     У нас <b>всегда</b> есть чем вас заинтересовать!
   </section>
 
-  <section class="important-things">
+  <section class="important-things important-things-theme">
     <ul>
-      <p class="very-big-text"> Итак, почему мы? </p>
-      <li class="big-text">
+      <p class="big-text"> Итак, почему мы? </p>
+      <li class="iteration">
         Общение с продавцом.
         <em>Любые</em> вопросы по поводу товара!
       </li>
-      <li class="big-text">
+      <li class="iteration">
         <em>Быстрая и надежная</em> доставка. Ваш заказ приедет в целости и сохранности. Прислушайтесь, вы услышите как торопится наш курьер!
       </li>
-      <li class="big-text">
+      <li class="iteration">
         Скидки и акции! <em>Каждый</em> день, только для вас!
       </li>
     </ul>
   </section>
-  <section class="head-main">
+  <section class="l-main-section">
     <pre>
      .{{}}}}}}.
     {{{{{{(`)}}}.
@@ -120,8 +123,8 @@
 </pre>
   </section>
 </main>
-<footer>
-  <h3 align="center">
+<footer class="l-footer">
+  <h3 class="footer-text-theme">
     <a href="mailto:ivan.hryakow@gmail.com" target="_blank" rel="noopener">Mail</a>
     <a href="https://vk.com/cyborob" target="_blank" rel="noopener">VK</a>
     <a href="https://IvanHryakow.t.me" target="_blank" rel="noopener">Telegram</a>
