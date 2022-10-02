@@ -1,0 +1,15 @@
+.l-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.l-nav-bar-button {
+    border-radius: 15px;
+    padding: 15px 1em 15px 1em;
+    font-size: 17px;
+    border-width: 2px 2px;
+    border-style: solid;
+    margin: auto;
+}
+

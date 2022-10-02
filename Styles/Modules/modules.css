@@ -1,0 +1,19 @@
+.important-things{
+    border-style: ridge;
+    padding: 10px;
+    width: 700px;
+    height: auto;
+    font-size: 22px;
+    font-weight: 300;
+    border-radius: 15px;
+    text-align: center;
+}
+
+IMG.fig {
+    position: relative;
+    float: right;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    width: 600px
+}
