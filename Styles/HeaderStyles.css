@@ -1,27 +1,26 @@
-#container button {
-    width: 190px;
-    height: 50px;
+.header {
+    background: #55792a;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.new-pointer {
+    cursor:pointer;
+}
+
+.nav-button {
     border-radius: 15px;
     color: #091a0c;
     background: #8adc1c;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    text-decoration: none;
+    padding: 15px 1em 15px 1em;
     font-size: 17px;
-    font-weight: 300;
-    horiz-align: center;
-    vertical-align: center;
-}
-
-#container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: stretch;
-}
-
-
-.header {
-    background: #55792a;
-}
-
-.newPointer {
-    cursor:pointer;
+    border-width: 2px 2px;
+    border-style: solid;
+    border-color:#000;
+    font-family: Roboto, Verdana, Tahoma, sans;
+    margin: auto;
 }

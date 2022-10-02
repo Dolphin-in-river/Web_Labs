@@ -1,8 +1,8 @@
-.myMain {
+.my-main {
     background: #a2ef41;
 }
 
-.headmain{
+.head-main{
     font-size: 19px;
     font-weight: 300;
     padding: 10px;
@@ -13,16 +13,16 @@
     background: #55792a;
 }
 
-.bigText{
+.big-text{
     font-size: 20.5px;
     line-height: 1.5;
 }
-.vBigText{
+.very-big-text{
     font-size: 22px;
     line-height: 1.5;
 }
 
-.importantThings{
+.important-things{
     background: greenyellow;
     border-style: ridge;
     padding: 10px;
