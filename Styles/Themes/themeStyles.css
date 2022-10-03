@@ -26,9 +26,9 @@
     line-height: 1.5;
 }
 
-.text-underline{
+.list-theme{
     text-decoration: underline;
-    font-style: normal;
+    font-style: italic;
 }
 
 .big-text{
@@ -45,10 +45,16 @@
     white-space: nowrap;
     text-align: center;
     text-transform: capitalize;
+    letter-spacing: 20px;
+}
+
+.red-string{
+    text-indent: 20px
 }
 
 .normal-white-space{
     white-space: normal;
+    letter-spacing: normal;
 }
 
 .shadow-for-blocks{
