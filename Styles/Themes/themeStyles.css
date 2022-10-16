@@ -5,7 +5,7 @@
 .nav-bar-button-theme{
      color: #091a0c;
      background: #8adc1c;
-     font-family: Roboto, Verdana, Tahoma, sans;
+     font-family: Roboto, Verdana, Tahoma;
      border-color:#000;
      box-shadow: 0 1px 3px rgba(0,0,0,0.5);
  }
