@@ -21,6 +21,10 @@
     font-weight: 600;
 }
 
+.important-things-theme-warning{
+    background: #FF4184;
+}
+
 .iteration{
     font-size: 20.5px;
     line-height: 1.5;

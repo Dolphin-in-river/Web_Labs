@@ -15,5 +15,21 @@ IMG.fig {
     padding-left: 50px;
     padding-bottom: 10px;
     padding-right: 50px;
+}
+
+.fig-width-about-us{
     width: 600px
+}
+
+.readable-font{
+    font-family: Exo2,arial,sans-serif;
+}
+
+.half-width{
+    width: 50%;
+}
+
+.original-size{
+    width: auto;
+    height: auto;
 }
