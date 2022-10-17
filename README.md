@@ -15,16 +15,16 @@
 ***
 Логотип нашей компании:
 
-![logo](./Images/logo_sadfarmer.png)
+![logo](Sources/Images/logo_sadfarmer.png)
 
 ***
 [Основная страница сайта](https://dolphin-in-river.github.io/Web_Labs/):
 
-![homepage](./Images/1-Homepage.png)
+![homepage](Sources/Images/1-Homepage.png)
 
 ***
 Вкладка "О компании":
 
-![info about company](./Images/3--.png)
+![info about company](Sources/Images/3--.png)
 
 ***
