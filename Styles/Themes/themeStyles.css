@@ -64,3 +64,9 @@
 .shadow-for-blocks{
     box-shadow: 10px 5px 5px darkseagreen;
 }
+
+.head-table-theme {
+    background-color: lightblue;
+    text-align: center;
+    border-bottom: 1px solid black;
+}

@@ -29,6 +29,10 @@ IMG.fig {
     width: 50%;
 }
 
+.center-text{
+    margin: auto;
+}
+
 .original-size{
     width: auto;
     height: auto;
@@ -42,6 +46,7 @@ IMG.fig {
 
 .image-container {
     margin: 0;
+    text-align: center;
 }
 
 .grid-image {

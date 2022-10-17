@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="Styles/Base/baseStyles.css" type="text/css">
     <link rel="stylesheet" href="Styles/Modules/modules.css" type="text/css">
     <link rel="stylesheet" href="Styles/Themes/themeStyles.css" type="text/css">
+    <link rel="stylesheet" href="Styles/Modules/tableStyles.css" type="text/css">
 </head>
 <body>
 <header class="shadow-for-blocks">
@@ -58,17 +59,7 @@
         менеджера). По прошествии данного срока заказ аннулируется.
     </p>
 
-    <div class="important-things important-things-theme half-width">
-        <p>
-            На данный момент доставка товаров недоступна!
-        </p>
-        <p>
-            Для получения заказа необходимо забрать его лично в одном из
-            пунктов выдачи товара.
-        </p>
-    </div>
-
-    <div class="important-things important-things-theme important-things-theme-warning half-width">
+    <div class="important-things important-things-theme half-width center-text">
         <p>
             Все заказы отправляются только по 100% предоплате;
         </p>
@@ -80,25 +71,45 @@
         </p>
     </div>
 
-    <div>
+    <div class="important-things important-things-theme important-things-theme-warning  half-width center-text">
         <p>
-            Список пунктов самовывоза:
+            На данный момент доставка товаров недоступна!
         </p>
-        <ul>
-            <li class="iteration">
-                Удельный рынок: Фермское ш., 41, корп. 5, Санкт-Петербург.
-            </li>
-            <li class="iteration">
-                Сытный рынок: Сытнинская ул., 5, Санкт-Петербург.
-            </li>
-            <li class="iteration">
-                Сенной рынок: Московский просп., 4, Санкт-Петербург.
-            </li>
-            <li class="iteration">
-                Полюстровский рынок: Полюстровский просп., 45, Санкт-Петербург.
-            </li>
-        </ul>
+        <p>
+            Для получения заказа необходимо забрать его лично в одном из
+            пунктов выдачи товара.
+        </p>
     </div>
+    <div class="table">
+        <table class="grid-table">
+            <thead class="head-table">
+            <tr class="row-table">
+                <th class="head-table-theme">Список пунктов самовывоза</th>
+                <th class="head-table-theme">Адрес</th>
+            </tr>
+            </thead>
+            <tbody class="body-table">
+            <tr class="row-table">
+                <td class="field-in-table">Удельный рынок</td>
+                <td class="field-in-table">Фермское ш., 41, корп. 5, Санкт-Петербург</td>
+            </tr>
+            <tr class="row-table">
+                <td class="field-in-table">Сытный рынок</td>
+                <td class="field-in-table">Сытнинская ул., 5, Санкт-Петербург
+                </td>
+            </tr>
+            <tr class="row-table">
+                <td class="field-in-table">Сенной рынок</td>
+                <td class="field-in-table">Московский просп., 4, Санкт-Петербург.</td>
+            </tr>
+            <tr class="row-table">
+                <td class="field-in-table">Полюстровский рынок</td>
+                <td class="field-in-table">Полюстровский просп., 45, Санкт-Петербург.</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
     <div class="image-container">
         <div class="grid-image">
             <div class="image-main">
