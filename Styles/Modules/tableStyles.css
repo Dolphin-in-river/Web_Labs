@@ -1,23 +1,20 @@
 .table{
     margin: 20px auto;
-    width: 1200px;;
 }
 
 .grid-table {
     display: grid;
     border-color:#000;
-    border-width: 2px 2px;
+    border-width: 1px;
     border-style: dashed;
     grid-template-columns:
         minmax(200px, auto)
         minmax(200px, auto);
 }
 
-.head-table {
-    display: contents;
-}
-
-.body-table {
+thead,
+tbody,
+tr {
     display: contents;
 }
 
@@ -26,14 +23,10 @@
     text-align: center;
 }
 
-.row-table {
-    display: contents;
+.row-table:nth-of-type(odd) .field-in-table {
+    background-color: lightcoral;
 }
 
-.row-table:nth-of-type(odd) > .field-in-table {
-    background-color: lightgrey;
-}
-
-.row-table:nth-of-type(even) > .field-in-table {
+.row-table:nth-of-type(even) .field-in-table {
     background-color: lightblue;
 }

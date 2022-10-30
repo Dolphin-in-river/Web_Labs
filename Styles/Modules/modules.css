@@ -9,12 +9,13 @@
     text-align: center;
 }
 
-IMG.fig {
+.fig {
     position: relative;
     float: right;
     padding-left: 50px;
     padding-bottom: 10px;
     padding-right: 50px;
+    display: block;
 }
 
 .fig-width-about-us{
@@ -36,6 +37,16 @@ IMG.fig {
 .original-size{
     width: auto;
     height: auto;
+}
+
+@media screen and (max-width: 1250px) {
+    .code {
+        display: none;
+    }
+}
+
+.code{
+
 }
 
 @media screen and (max-width: 1250px) {
@@ -86,3 +97,25 @@ IMG.fig {
      grid-area: additional-image-4;
  }
 
+@media screen and (min-width: 751px)
+and (max-width: 1490px) {
+    .adaptive-image  {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        position: unset;
+        float: none;
+        padding-top: 20px;
+        padding-left: unset;
+        padding-bottom: unset;
+        padding-right: unset;
+    }
+}
+
+.adaptive-image{
+}
+
+/*#container {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
