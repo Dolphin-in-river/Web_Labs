@@ -15,7 +15,6 @@
     padding-left: 50px;
     padding-bottom: 10px;
     padding-right: 50px;
-    display: block;
 }
 
 .fig-width-about-us{
@@ -97,7 +96,7 @@
      grid-area: additional-image-4;
  }
 
-@media screen and (min-width: 751px)
+@media screen and (min-width: 761px)
 and (max-width: 1490px) {
     .adaptive-image  {
         display: block;
@@ -114,8 +113,3 @@ and (max-width: 1490px) {
 
 .adaptive-image{
 }
-
-/*#container {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*}*/
