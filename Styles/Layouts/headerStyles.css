@@ -13,3 +13,11 @@
     margin: auto;
 }
 
+.l-hiding-things {
+}
+
+@media screen and (max-width: 760px) {
+    .l-hiding-things  {
+        display: none;
+    }
+}

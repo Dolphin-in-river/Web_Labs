@@ -5,3 +5,53 @@
 .l-main-section{
     padding: 10px;
 }
+
+.l-main-products{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+
+.l-main-product-image{
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.l-main-gallery {
+    margin: 0 20px 20px;
+    position: relative;
+}
+
+.l-main-pictures-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.l-main-picture {
+    flex: 1;
+    height: 600px;
+    overflow: hidden;
+    transition: 200ms;
+}
+
+.l-main-picture img {
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1.8s;
+    transform: scale(1.2);
+}
+
+.l-main-picture:hover img {
+    transform: scale(1);
+}
+
+@media screen and (max-width: 1250px) {
+    .l-main-picture {
+        display: none;
+    }
+}
