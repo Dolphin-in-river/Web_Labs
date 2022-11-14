@@ -6,7 +6,5 @@
         document.getElementById(item).style.textDecoration = 'underline';
     }
 
-    document.addEventListener('DOMContentLoaded', function(){
-        pageIsActive();
-    })
+    document.addEventListener('DOMContentLoaded', pageIsActive);
 })();

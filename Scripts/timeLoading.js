@@ -6,7 +6,5 @@
             'Время загузки составило: ' + (new Date().getTime() - open_time) / 1000 + ' сек';
     }
 
-    document.addEventListener('DOMContentLoaded', function(){
-        load_time();
-    });
+    document.addEventListener('DOMContentLoaded', load_time);
 })();
