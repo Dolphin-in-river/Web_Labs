@@ -113,3 +113,73 @@ and (max-width: 1490px) {
 
 .adaptive-image{
 }
+
+.feedback-form{
+    text-align: center;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas:
+    "fio"
+    "con"
+    "but";
+}
+
+.text-input{
+    background: #adee59;
+    font-size: 26px;
+    text-align: center;
+    box-sizing: border-box;
+    border-width: 2px 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+}
+
+textarea{
+    padding: 10px;
+    display: inline-block;
+    overflow: auto;
+    resize: both;
+    color: black;
+}
+
+.feedback-name{
+    min-height: 55px;
+    min-width: 200px;
+    width: 300px;
+    height: 55px;
+}
+
+.feedback-space{
+    min-height: 80px;
+    min-width: 200px;
+    width: 300px;
+}
+
+.feedback-button{
+    background: #adee59;
+    font-size: 26px;
+    border-width: 2px 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    width: 300px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.table-feedback {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.feedback {
+}
+
+.field-table-feedback {
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    font-size: 26px;
+}
