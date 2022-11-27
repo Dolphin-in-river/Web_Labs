@@ -13,19 +13,21 @@
     <link rel="stylesheet" href="Styles/Modules/modules.css" type="text/css">
     <link rel="stylesheet" href="Styles/Themes/themeStyles.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Scripts/timeLoading.js"></script>
+    <script src="Scripts/activeButton.js"></script>
 </head>
 <body>
 
 <header class="shadow-for-blocks">
     <nav class="l-nav-bar nav-bar-theme">
-        <a class="l-nav-bar-button nav-bar-button-theme" href="./index.html">Главная</a>
+        <a id="index" class="l-nav-bar-button nav-bar-button-theme" href="./index.html">Главная</a>
         <a href="./index.html">
             <img alt="gif with a bug" class="logotype l-hiding-things" src="Sources/Gif/bug.gif">
         </a>
-        <a class="l-nav-bar-button nav-bar-button-theme l-hiding-things" href="./aboutCompany.html">О компании</a>
-        <a class="l-nav-bar-button nav-bar-button-theme l-hiding-things" href="./deliveryAndPayment.html">Доставка и оплата</a>
-        <a class="l-nav-bar-button nav-bar-button-theme l-hiding-things" href="">Контакты</a>
-        <a class="l-nav-bar-button nav-bar-button-theme" href="">Войти</a>
+        <a id="aboutCompany" class="l-nav-bar-button nav-bar-button-theme l-hiding-things" href="./aboutCompany.html">О компании</a>
+        <a id="deliveryAndPayment" class="l-nav-bar-button nav-bar-button-theme l-hiding-things" href="./deliveryAndPayment.html">Доставка и оплата</a>
+        <a class="l-nav-bar-button nav-bar-button-theme l-hiding-things" href="https://IvanHryakow.t.me" target="_blank" rel="noopener">Контакты</a>
+        <a id="input" class="l-nav-bar-button nav-bar-button-theme" href="./input.html">Войти</a>
     </nav>
 </header>
 <main class="shadow-for-blocks main-theme">
@@ -54,6 +56,9 @@
         <a href="https://vk.com/cyborob" target="_blank" rel="noopener">VK</a>
         <a href="https://IvanHryakow.t.me" target="_blank" rel="noopener">Telegram</a>
     </h3>
+    <div class="footer-text-theme">
+        <span id="load-time"></span>
+    </div>
 </footer>
 </body>
 </html>
