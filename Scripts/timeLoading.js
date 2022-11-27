@@ -3,7 +3,7 @@
 
     function load_time() {
         document.getElementById('load-time').innerHTML =
-            'Время загузки составило: ' + open_time / 1000 + ' сек';
+            'Время загрузки составило: ' + open_time / 1000 + ' сек';
     }
     document.addEventListener('DOMContentLoaded', load_time);
 })();
