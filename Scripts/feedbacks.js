@@ -1,11 +1,18 @@
+(function () {
+    document.addEventListener("DOMContentLoaded", () => {
+        listenToSubmit()
+        displayFeedbacks()
+    })
+})();
+
 function listenToSubmit() {
     document.addEventListener("submit", (event) => {
         event.preventDefault()
         const feedbackName = document.getElementById("feedback-name").value
         const feedbackContent = document.getElementById("feedback-content").value
 
-        if (feedbackName.length === 0 || feedbackContent.length === 0) {
-            alert("Заполните все поля!")
+        if (feedbackName.length === 0) {
+            alert("Заполните поле имени!")
             return
         }
 
@@ -38,7 +45,7 @@ function listenToSubmit() {
     })
 }
 
-function displayMetrics() {
+function displayFeedbacks() {
     const keys = Object.keys(localStorage)
     let i = keys.length
 
@@ -60,10 +67,3 @@ function addToPage(newObject) {
     `;
     document.querySelector(".feedback").insertAdjacentHTML("beforeend", addToHTML);
 }
-
-(function () {
-    document.addEventListener("DOMContentLoaded", () => {
-        listenToSubmit()
-        displayMetrics()
-    })
-})();
