@@ -56,7 +56,7 @@ function displayFeedbacks() {
 
 function addToPage(newObject) {
     const addToHTML = `
-      <tr class="suggest-metric-row">
+      <tr>
           <td class="field-table-feedback">
               ${newObject["feedback-name"].toString()}
           </td>
