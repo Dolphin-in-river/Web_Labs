@@ -50,7 +50,7 @@ function displayFeedbacks() {
     let i = keys.length
 
     while (i--) {
-        addToPage(JSON.parse(localStorage.getItem(keys[i])))
+        addToPage(JSON.parse(localStorage.getItem(keys[keys.length - i - 1])))
     }
 }
 
@@ -58,10 +58,10 @@ function addToPage(newObject) {
     const addToHTML = `
       <tr>
           <td class="field-table-feedback">
-              ${newObject["feedback-name"].toString()}
+              ${newObject["feedback-name"]}
           </td>
           <td class="field-table-feedback">
-              ${newObject["feedback-content"].toString()}
+              ${newObject["feedback-content"]}
           </td>
       </tr>
     `;
