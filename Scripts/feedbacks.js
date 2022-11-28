@@ -21,7 +21,7 @@ function listenToSubmit() {
             return
         }
 
-        if (!feedbackContent.match(/^[a-zA-Zа-яА-Я0-9\s]*$/)) {
+        if (!feedbackContent.match(/^[a-zA-Zа-яА-Я0-9\s!?\.]*$/)) {
             alert("Разрешены только буквы и цифры!")
             return
         }
