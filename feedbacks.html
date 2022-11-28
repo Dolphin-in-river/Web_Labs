@@ -1,81 +1,98 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Онлайн-рынок SadFarmer</title>
-  <meta name="keywords" content="Продукты, овощи, фрукты, онлайн-рынок, интернет-магазин">
-  <meta name="description" content="Первый онлайн-рынок по продаже продуктов с огорода">
-  <link rel="shortcut icon" href="Sources/Images/logo.png" type="image/png">
-  <link rel="stylesheet" href="Styles/Layouts/headerStyles.css" type="text/css">
-  <link rel="stylesheet" href="Styles/Layouts/mainStyles.css" type="text/css">
-  <link rel="stylesheet" href="Styles/Layouts/footerStyles.css" type="text/css">
-  <link rel="stylesheet" href="Styles/Base/baseStyles.css" type="text/css">
-  <link rel="stylesheet" href="Styles/Modules/modules.css" type="text/css">
-  <link rel="stylesheet" href="Styles/Themes/themeStyles.css" type="text/css">
-  <link rel="stylesheet" href="Styles/Modules/tableStyles.css" type="text/css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="Scripts/timeLoading.js"></script>
-  <script src="Scripts/activeButton.js"></script>
-  <script src="Scripts/feedbacks.js"></script>
+    <meta charset="UTF-8">
+    <title>Онлайн-рынок SadFarmer</title>
+    <meta name="keywords" content="Продукты, овощи, фрукты, онлайн-рынок, интернет-магазин">
+    <meta name="description" content="Первый онлайн-рынок по продаже продуктов с огорода">
+    <link rel="shortcut icon" href="Sources/Images/logo.png" type="image/png">
+    <link rel="stylesheet" href="Styles/Layouts/headerStyles.css" type="text/css">
+    <link rel="stylesheet" href="Styles/Layouts/mainStyles.css" type="text/css">
+    <link rel="stylesheet" href="Styles/Layouts/footerStyles.css" type="text/css">
+    <link rel="stylesheet" href="Styles/Base/baseStyles.css" type="text/css">
+    <link rel="stylesheet" href="Styles/Modules/modules.css" type="text/css">
+    <link rel="stylesheet" href="Styles/Themes/themeStyles.css" type="text/css">
+    <link rel="stylesheet" href="Styles/Modules/tableStyles.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Scripts/timeLoading.js"></script>
+    <script src="Scripts/activeButton.js"></script>
+    <script src="Scripts/feedbacks.js"></script>
 
 </head>
 <body>
 
 <header class="shadow-for-blocks">
-  <nav class="l-nav-bar nav-bar-theme">
-    <a id="index" class="l-nav-bar-button nav-bar-button-theme" href="./index.html">Главная</a>
-    <a href="./index.html">
-      <img alt="gif with a bug" class="logotype l-hiding-things" src="Sources/Gif/bug.gif">
-    </a>
-    <a id="aboutCompany" class="l-nav-bar-button nav-bar-button-theme l-hiding-things" href="./aboutCompany.html">О компании</a>
-    <a id="deliveryAndPayment" class="l-nav-bar-button nav-bar-button-theme l-hiding-things" href="./deliveryAndPayment.html">Доставка и оплата</a>
-    <a id="contacts" class="l-nav-bar-button nav-bar-button-theme l-hiding-things" href="./contacts.html">Контакты</a>
-    <a id="feedbacks" class="l-nav-bar-button nav-bar-button-theme l-hiding-things" href="./feedbacks.html">Отзывы</a>
-    <a id="input" class="l-nav-bar-button nav-bar-button-theme" href="./input.html">Войти</a>
-  </nav>
+    <nav class="l-nav-bar nav-bar-theme">
+        <a id="index" class="l-nav-bar-button nav-bar-button-theme" href="./index.html">Главная</a>
+        <a href="./index.html">
+            <img alt="gif with a bug" class="logotype l-hiding-things" src="Sources/Gif/bug.gif">
+        </a>
+        <a id="aboutCompany" class="l-nav-bar-button nav-bar-button-theme l-hiding-things" href="./aboutCompany.html">О
+            компании</a>
+        <a id="deliveryAndPayment" class="l-nav-bar-button nav-bar-button-theme l-hiding-things"
+           href="./deliveryAndPayment.html">Доставка и оплата</a>
+        <a id="contacts" class="l-nav-bar-button nav-bar-button-theme l-hiding-things"
+           href="./contacts.html">Контакты</a>
+        <a id="feedbacks" class="l-nav-bar-button nav-bar-button-theme l-hiding-things"
+           href="./feedbacks.html">Отзывы</a>
+        <a id="input" class="l-nav-bar-button nav-bar-button-theme" href="./input.html">Войти</a>
+    </nav>
 </header>
 <main class="shadow-for-blocks main-theme">
-  <section class="l-main-section">
-    <h1 class="header-text normal-white-space l-hiding-things">
-      Отзывы
-    </h1>
-    <form class="feedback-form">
-      <label>
-        <textarea id="feedback-name" maxlength="100" placeholder="ФИО" name="text" class="feedback-name text-input fio"></textarea>
-      </label>
-      <label>
-        <textarea id="feedback-content" placeholder="Содержание" class="feedback-name feedback-space text-input con"></textarea>
-      </label>
-      <button type='submit' class="feedback-button but">Добавить отзыв</button>
-    </form>
+    <section class="l-main-section">
+        <h1 class="header-text normal-white-space l-hiding-things">
+            Отзывы
+        </h1>
+        <form class="feedback-form">
+            <label>
+                <textarea id="feedback-name" maxlength="100" placeholder="ФИО" name="text"
+                          class="feedback-name text-input fio"></textarea>
+            </label>
+            <label>
+                <textarea id="feedback-content" placeholder="Содержание"
+                          class="feedback-name feedback-space text-input con"></textarea>
+            </label>
+            <button type='submit' class="feedback-button but">Добавить отзыв</button>
+        </form>
 
-    <h2 class="header-text normal-white-space l-hiding-things">
-      Предыдущие&nbsp;отзывы:
-    </h2>
-    <div>
-      <table class="table-feedback">
-        <thead>
-        <tr>
-          <th class="field-table-feedback">ФИО</th>
-          <th class="field-table-feedback">Содержание</th>
-        </tr>
-        </thead>
-        <tbody class="feedback">
-        </tbody>
-      </table>
-    </div>
-  </section>
+        <h2 class="header-text normal-white-space l-hiding-things">
+            Предыдущие&nbsp;отзывы:
+        </h2>
+        <div>
+            <table class="table-feedback">
+                <thead>
+                <tr>
+                    <th class="field-table-feedback">ФИО</th>
+                    <th class="field-table-feedback">Содержание</th>
+                </tr>
+                </thead>
+                <tbody class="feedback">
+                </tbody>
+            </table>
+
+            <template id="template-feedback">
+                <tr>
+                    <td class="field-table-feedback">
+                        ${newObject["feedback-name"]}
+                    </td>
+                    <td class="field-table-feedback">
+                        ${newObject["feedback-content"]}
+                    </td>
+                </tr>
+            </template>
+        </div>
+    </section>
 
 </main>
 <footer class="l-footer">
-  <h3 class="footer-text-theme">
-    <a href="mailto:ivan.hryakow@gmail.com" target="_blank" rel="noopener">Mail</a>
-    <a href="https://vk.com/cyborob" target="_blank" rel="noopener">VK</a>
-    <a href="https://IvanHryakow.t.me" target="_blank" rel="noopener">Telegram</a>
-  </h3>
-  <div class="footer-text-theme">
-    <span id="load-time"></span>
-  </div>
+    <h3 class="footer-text-theme">
+        <a href="mailto:ivan.hryakow@gmail.com" target="_blank" rel="noopener">Mail</a>
+        <a href="https://vk.com/cyborob" target="_blank" rel="noopener">VK</a>
+        <a href="https://IvanHryakow.t.me" target="_blank" rel="noopener">Telegram</a>
+    </h3>
+    <div class="footer-text-theme">
+        <span id="load-time"></span>
+    </div>
 </footer>
 </body>
 </html>

@@ -55,15 +55,11 @@ function displayFeedbacks() {
 }
 
 function addToPage(newObject) {
-    const addToHTML = `
-      <tr>
-          <td class="field-table-feedback">
-              ${newObject["feedback-name"]}
-          </td>
-          <td class="field-table-feedback">
-              ${newObject["feedback-content"]}
-          </td>
-      </tr>
-    `;
-    document.querySelector(".feedback").insertAdjacentHTML("beforeend", addToHTML);
+    let tbody = document.querySelector(".feedback");
+    let template = document.querySelector('#template-feedback');
+    let clone = template.content.cloneNode(true);
+    let td = clone.querySelectorAll("td");
+    td[0].textContent = newObject["feedback-name"];
+    td[1].textContent = newObject["feedback-content"];
+    tbody.appendChild(clone);
 }
