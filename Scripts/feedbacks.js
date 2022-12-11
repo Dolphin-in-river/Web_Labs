@@ -38,18 +38,27 @@ function listenToSubmit() {
             return;
         }
 
-        const newObject = {"feedback-name": feedbackName, "feedback-content": feedbackContent};
+        const newObject = {"feedback-name": feedbackName, "feedback-content": feedbackContent, "date-time": new Date().getTime()};
         localStorage.setItem(hash.toString(), JSON.stringify(newObject));
         addToPage(newObject);
     })
 }
 
+function compareNumeric(a, b) {
+    return a["date-time"] - b["date-time"]
+}
+
 function displayFeedbacks() {
     const keys = Object.keys(localStorage);
     let i = keys.length;
-
+    let arr = []
     while (i--) {
-        addToPage(JSON.parse(localStorage.getItem(keys[keys.length - i - 1])));
+        arr.push(JSON.parse(localStorage.getItem(keys[keys.length - i - 1])));
+    }
+    arr.sort(compareNumeric)
+    i = keys.length;
+    while (i--) {
+        addToPage(arr[keys.length - i - 1])
     }
 }
 
