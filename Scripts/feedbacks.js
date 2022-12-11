@@ -12,7 +12,7 @@ function listenToSubmit() {
         const feedbackContent = document.getElementById("feedback-content").value.trim();
 
         if (feedbackName === '') {
-            alert("Заполните поле имени!");
+            alert("Имя пробел не может быть, возвращайтесь только после МФЦ!");
             return;
         }
 
