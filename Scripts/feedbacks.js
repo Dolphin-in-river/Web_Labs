@@ -8,8 +8,8 @@
 function listenToSubmit() {
     document.addEventListener("submit", (event) => {
         event.preventDefault();
-        const feedbackName = document.getElementById("feedback-name").value;
-        const feedbackContent = document.getElementById("feedback-content").value;
+        const feedbackName = document.getElementById("feedback-name").value.trim();
+        const feedbackContent = document.getElementById("feedback-content").value.trim();
 
         if (feedbackName === '') {
             alert("Заполните поле имени!");
