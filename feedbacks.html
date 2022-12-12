@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="Styles/Modules/modules.css" type="text/css">
     <link rel="stylesheet" href="Styles/Themes/themeStyles.css" type="text/css">
     <link rel="stylesheet" href="Styles/Modules/tableStyles.css" type="text/css">
+    <link rel="stylesheet" href="Styles/Modules/card.css" type="text/css">
+    <link rel="stylesheet" href="Styles/Modules/loading.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="Scripts/timeLoading.js"></script>
     <script src="Scripts/activeButton.js"></script>
@@ -83,6 +85,13 @@
         </div>
     </section>
 
+    <h2 class="header-text normal-white-space l-hiding-things">
+        Отзывы&nbsp;предыдущих&nbsp;коллег:
+    </h2>
+    <div id="posts">
+        <img src="Sources/Gif/Banana.gif" alt="preloading" id="preloading" class="preloading">
+    </div>
+
 </main>
 <footer class="l-footer">
     <h3 class="footer-text-theme">
@@ -94,5 +103,6 @@
         <span id="load-time"></span>
     </div>
 </footer>
+<script src="Scripts/posts.js"></script>
 </body>
 </html>
