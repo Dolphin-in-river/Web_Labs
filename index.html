@@ -11,10 +11,13 @@
     <link rel="stylesheet" href="Styles/Layouts/footerStyles.css" type="text/css">
     <link rel="stylesheet" href="Styles/Base/baseStyles.css" type="text/css">
     <link rel="stylesheet" href="Styles/Modules/modules.css" type="text/css">
+    <link rel="stylesheet" href="Styles/Modules/mySwiper.css" type="text/css">
     <link rel="stylesheet" href="Styles/Themes/themeStyles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="Scripts/timeLoading.js"></script>
     <script src="Scripts/activeButton.js"></script>
+
 </head>
 <body>
 
@@ -49,6 +52,24 @@
         </div>
     </div>
 
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img class="small-picture" src="Sources/Images/1_1.png" alt="Vegetable">
+            </div>
+            <div class="swiper-slide">
+                <img class="small-picture" src="Sources/Images/2_1.png" alt="Vegetable">
+            </div>
+            <div class="swiper-slide">
+                <img class="small-picture" src="Sources/Images/3_1.png" alt="Vegetable">
+            </div>
+            <div class="swiper-slide">
+                <img class="small-picture" src="Sources/Images/4_1.png" alt="Vegetable">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
 
 </main>
 <footer class="l-footer">
@@ -61,5 +82,7 @@
         <span id="load-time"></span>
     </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="Scripts/swiper.js"></script>
 </body>
 </html>
