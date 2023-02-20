@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3eb9448f-a0c8-4203-a4cd-6cd0640e1431" name="Changes" comment="fix: remove swiper-pagination" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lab-5" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EdRaH2OCvpJbOwMG5mJjeRMz2g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Иван/WebstormProjects/Web_Labs/Sources/Images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Иван\WebstormProjects\Web_Labs\Sources\Images" />
+      <recent name="C:\Users\Иван\WebstormProjects\Web_Labs\Images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Иван\WebstormProjects\Web_Labs\Sources\Images" />
+      <recent name="C:\Users\Иван\WebstormProjects\Web_Labs\Sources\Gif" />
+      <recent name="C:\Users\Иван\WebstormProjects\Web_Labs\Sources" />
+      <recent name="C:\Users\Иван\WebstormProjects\Web_Labs\Styles\Layouts" />
+      <recent name="C:\Users\Иван\WebstormProjects\Web_Labs\Styles" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web_Labs/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="feedbacks.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Scripts/feedbacks.js" working-dir="$PROJECT_DIR$/Scripts">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.feedbacks.js" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3eb9448f-a0c8-4203-a4cd-6cd0640e1431" name="Changes" comment="" />
+      <created>1662923537136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662923537136</updated>
+      <workItem from="1662923540002" duration="6348000" />
+      <workItem from="1663428541039" duration="12760000" />
+      <workItem from="1663498617020" duration="14801000" />
+      <workItem from="1663615609731" duration="602000" />
+      <workItem from="1664725785813" duration="25771000" />
+      <workItem from="1665925842310" duration="19044000" />
+      <workItem from="1665997841087" duration="341000" />
+      <workItem from="1665998452423" duration="3786000" />
+      <workItem from="1667146458330" duration="20653000" />
+      <workItem from="1667340890150" duration="595000" />
+      <workItem from="1668337200688" duration="11559000" />
+      <workItem from="1669546525295" duration="31276000" />
+      <workItem from="1670769127703" duration="21097000" />
+    </task>
+    <task id="LOCAL-00037" summary="fix: moved the header text out of the list">
+      <created>1664786599836</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1664786599836</updated>
+    </task>
+    <task id="LOCAL-00038" summary="fix: moved the photo and gif to directory 'sources'.">
+      <created>1664787947944</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1664787947944</updated>
+    </task>
+    <task id="LOCAL-00039" summary="feat: add spacing between letters and text indent">
+      <created>1664795606284</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1664795606284</updated>
+    </task>
+    <task id="LOCAL-00040" summary="fix: delete height at picture">
+      <created>1664795658187</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1664795658187</updated>
+    </task>
+    <task id="LOCAL-00041" summary="feat: add link to google fonts">
+      <created>1665933830096</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1665933830096</updated>
+    </task>
+    <task id="LOCAL-00042" summary="feat: add delivery page">
+      <created>1665942821100</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1665942821100</updated>
+    </task>
+    <task id="LOCAL-00043" summary="feat: add pictures for delivery page">
+      <created>1665942835950</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1665942835950</updated>
+    </task>
+    <task id="LOCAL-00044" summary="feat: add delivery page">
+      <created>1665942845535</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1665942845535</updated>
+    </task>
+    <task id="LOCAL-00045" summary="feat: add delivery html-page">
+      <created>1665942878783</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1665942878783</updated>
+    </task>
+    <task id="LOCAL-00046" summary="feat: add hiding elements">
+      <created>1665955080978</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1665955080979</updated>
+    </task>
+    <task id="LOCAL-00047" summary="feat: add absolute position footer">
+      <created>1665955225846</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1665955225852</updated>
+    </task>
+    <task id="LOCAL-00048" summary="fix: fixes fonts">
+      <created>1666003424090</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1666003424090</updated>
+    </task>
+    <task id="LOCAL-00049" summary="fix: fixes fonts">
+      <created>1666003918618</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1666003918618</updated>
+    </task>
+    <task id="LOCAL-00050" summary="fix: remove Roboto fonts">
+      <created>1666004048952</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1666004048954</updated>
+    </task>
+    <task id="LOCAL-00051" summary="fix: change margins">
+      <created>1666004290260</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1666004290260</updated>
+    </task>
+    <task id="LOCAL-00052" summary="feat: add adaptive properties for elements">
+      <created>1667173167605</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1667173167606</updated>
+    </task>
+    <task id="LOCAL-00053" summary="feat: add new page">
+      <created>1667173197474</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1667173197474</updated>
+    </task>
+    <task id="LOCAL-00054" summary="fix: rename classes">
+      <created>1667173989336</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1667173989336</updated>
+    </task>
+    <task id="LOCAL-00055" summary="fix: rename classes">
+      <created>1667174342554</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1667174342554</updated>
+    </task>
+    <task id="LOCAL-00056" summary="fix: fix russian words">
+      <created>1667175362739</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1667175362739</updated>
+    </task>
+    <task id="LOCAL-00057" summary="fix: remove bottom stripe">
+      <created>1667175517169</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1667175517169</updated>
+    </task>
+    <task id="LOCAL-00058" summary="fix: remove unused params">
+      <created>1667213913812</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1667213913813</updated>
+    </task>
+    <task id="LOCAL-00059" summary="fix: display at the picture">
+      <created>1667214445274</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1667214445274</updated>
+    </task>
+    <task id="LOCAL-00060" summary="feat: add viewport to pages">
+      <created>1667217409276</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1667217409276</updated>
+    </task>
+    <task id="LOCAL-00061" summary="feat: add fr units of measurements">
+      <created>1667218043183</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1667218043183</updated>
+    </task>
+    <task id="LOCAL-00062" summary="feat: add new page">
+      <created>1668362988408</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1668362988408</updated>
+    </task>
+    <task id="LOCAL-00063" summary="feat: add new js-scripts">
+      <created>1668363002309</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1668363002309</updated>
+    </task>
+    <task id="LOCAL-00064" summary="fix: change menu and navbar">
+      <created>1668363028482</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1668363028482</updated>
+    </task>
+    <task id="LOCAL-00065" summary="fix: remove syntax sugar">
+      <created>1668424355491</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1668424355491</updated>
+    </task>
+    <task id="LOCAL-00066" summary="fix: change method for calculate time load">
+      <created>1668429001948</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1668429001949</updated>
+    </task>
+    <task id="LOCAL-00067" summary="feat: add new pages">
+      <created>1669589961674</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1669589961675</updated>
+    </task>
+    <task id="LOCAL-00068" summary="feat: add markdown in runtime">
+      <created>1669590318446</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1669590318446</updated>
+    </task>
+    <task id="LOCAL-00069" summary="fix: small fix">
+      <created>1669590632389</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1669590632389</updated>
+    </task>
+    <task id="LOCAL-00070" summary="feat: add js">
+      <created>1669590798084</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1669590798084</updated>
+    </task>
+    <task id="LOCAL-00071" summary="fix: small fixes">
+      <created>1669618827588</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1669618827588</updated>
+    </task>
+    <task id="LOCAL-00072" summary="fix: change regex match">
+      <created>1669621208415</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1669621208415</updated>
+    </task>
+    <task id="LOCAL-00073" summary="feat: add some gramotnost'">
+      <created>1669632716861</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1669632716861</updated>
+    </task>
+    <task id="LOCAL-00074" summary="fix: small fixes">
+      <created>1669633586280</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1669633586280</updated>
+    </task>
+    <task id="LOCAL-00075" summary="fix: add right order">
+      <created>1669634541307</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1669634541308</updated>
+    </task>
+    <task id="LOCAL-00076" summary="feat: add template">
+      <created>1669635499179</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1669635499179</updated>
+    </task>
+    <task id="LOCAL-00077" summary="fix: change codestyle">
+      <created>1670776471947</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1670776471948</updated>
+    </task>
+    <task id="LOCAL-00078" summary="fix: remove whitespaces">
+      <created>1670776542280</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1670776542280</updated>
+    </task>
+    <task id="LOCAL-00079" summary="fix: add validation from browser">
+      <created>1670776824423</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1670776824423</updated>
+    </task>
+    <task id="LOCAL-00080" summary="fix: fix processing error with empty string in js">
+      <created>1670777119689</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1670777119689</updated>
+    </task>
+    <task id="LOCAL-00081" summary="fix: fix order in display">
+      <created>1670778886771</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1670778886771</updated>
+    </task>
+    <task id="LOCAL-00082" summary="feat: add 6 lab">
+      <created>1670798535246</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1670798535246</updated>
+    </task>
+    <task id="LOCAL-00083" summary="feat: add 7 lab">
+      <created>1670803679653</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1670803679654</updated>
+    </task>
+    <task id="LOCAL-00084" summary="feat: add 2_1 image">
+      <created>1670803960728</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1670803960731</updated>
+    </task>
+    <task id="LOCAL-00085" summary="fix: remove swiper-pagination">
+      <created>1670804379301</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1670804379301</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: add viewport to pages" />
+    <MESSAGE value="feat: add fr units of measurements" />
+    <MESSAGE value="feat: add new page" />
+    <MESSAGE value="feat: add new js-scripts" />
+    <MESSAGE value="fix: change menu and navbar" />
+    <MESSAGE value="fix: remove syntax sugar" />
+    <MESSAGE value="fix: change method for calculate time load" />
+    <MESSAGE value="feat: add new pages" />
+    <MESSAGE value="feat: add markdown in runtime" />
+    <MESSAGE value="fix: small fix" />
+    <MESSAGE value="feat: add js" />
+    <MESSAGE value="fix: change regex match" />
+    <MESSAGE value="feat: add some gramotnost'" />
+    <MESSAGE value="fix: small fixes" />
+    <MESSAGE value="fix: add right order" />
+    <MESSAGE value="feat: add template" />
+    <MESSAGE value="fix: change codestyle" />
+    <MESSAGE value="fix: remove whitespaces" />
+    <MESSAGE value="fix: add validation from browser" />
+    <MESSAGE value="fix: fix processing error with empty string in js" />
+    <MESSAGE value="fix: fix order in display" />
+    <MESSAGE value="feat: add 6 lab" />
+    <MESSAGE value="feat: add 7 lab" />
+    <MESSAGE value="feat: add 2_1 image" />
+    <MESSAGE value="fix: remove swiper-pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: remove swiper-pagination" />
+  </component>
+</project>

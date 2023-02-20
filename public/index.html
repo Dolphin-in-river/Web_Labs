@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Онлайн-рынок SadFarmer</title>
+    <meta name="keywords" content="Продукты, овощи, фрукты, онлайн-рынок, интернет-магазин">
+    <meta name="description" content="Первый онлайн-рынок по продаже продуктов с огорода">
+    <link rel="shortcut icon" href="Sources/Images/logo.png" type="image/png">
+    <link rel="stylesheet" href="Styles/Layouts/headerStyles.css" type="text/css">
+    <link rel="stylesheet" href="Styles/Layouts/mainStyles.css" type="text/css">
+    <link rel="stylesheet" href="Styles/Layouts/footerStyles.css" type="text/css">
+    <link rel="stylesheet" href="Styles/Base/baseStyles.css" type="text/css">
+    <link rel="stylesheet" href="Styles/Modules/modules.css" type="text/css">
+    <link rel="stylesheet" href="Styles/Modules/mySwiper.css" type="text/css">
+    <link rel="stylesheet" href="Styles/Themes/themeStyles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Scripts/timeLoading.js"></script>
+    <script src="Scripts/activeButton.js"></script>
+
+</head>
+<body>
+
+<header class="shadow-for-blocks">
+    <nav class="l-nav-bar nav-bar-theme">
+        <a id="index" class="l-nav-bar-button nav-bar-button-theme" href="./index.html">Главная</a>
+        <a href="./index.html">
+            <img alt="gif with a bug" class="logotype l-hiding-things" src="Sources/Gif/bug.gif">
+        </a>
+        <a id="aboutCompany" class="l-nav-bar-button nav-bar-button-theme l-hiding-things" href="aboutCompany.html">О компании</a>
+        <a id="deliveryAndPayment" class="l-nav-bar-button nav-bar-button-theme l-hiding-things" href="deliveryAndPayment.html">Доставка и оплата</a>
+        <a id="contacts" class="l-nav-bar-button nav-bar-button-theme l-hiding-things" href="contacts.html">Контакты</a>
+        <a id="feedbacks" class="l-nav-bar-button nav-bar-button-theme l-hiding-things" href="feedbacks.html">Отзывы</a>
+        <a id="input" class="l-nav-bar-button nav-bar-button-theme" href="input.html">Войти</a>
+    </nav>
+</header>
+<main class="shadow-for-blocks main-theme">
+    <div class="l-main-gallery">
+        <div class="l-main-pictures-flex">
+            <div class="l-main-picture">
+                <img class="l-main-product-image" src="Sources/Images/anima1.jpg" alt="Vegetable">
+            </div>
+            <div class="l-main-picture">
+                <img class="l-main-product-image" src="Sources/Images/anima4.jpg" alt="Vegetable">
+                </div>
+            <div class="l-main-picture">
+                <img class="l-main-product-image" src="Sources/Images/anima3.jpg" alt="Vegetable">
+            </div>
+            <div class="l-main-picture">
+                <img class="l-main-product-image" src="Sources/Images/anima2.jpg" alt="Vegetable">
+            </div>
+        </div>
+    </div>
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img class="small-picture" src="Sources/Images/1_1.png" alt="Vegetable">
+            </div>
+            <div class="swiper-slide">
+                <img class="small-picture" src="Sources/Images/2_1.png" alt="Vegetable">
+            </div>
+            <div class="swiper-slide">
+                <img class="small-picture" src="Sources/Images/3_1.png" alt="Vegetable">
+            </div>
+            <div class="swiper-slide">
+                <img class="small-picture" src="Sources/Images/4_1.png" alt="Vegetable">
+            </div>
+        </div>
+    </div>
+
+</main>
+<footer class="l-footer">
+    <h3 class="footer-text-theme">
+        <a href="mailto:ivan.hryakow@gmail.com" target="_blank" rel="noopener">Mail</a>
+        <a href="https://vk.com/cyborob" target="_blank" rel="noopener">VK</a>
+        <a href="https://IvanHryakow.t.me" target="_blank" rel="noopener">Telegram</a>
+    </h3>
+    <div class="footer-text-theme">
+        <span id="load-time"></span>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="Scripts/swiper.js"></script>
+</body>
+</html>

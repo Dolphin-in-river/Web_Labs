@@ -1,0 +1,14 @@
+Index: Styles/Modules/tableStyles.css
+===================================================================
+diff --git a/Styles/Modules/tableStyles.css b/Styles/Modules/tableStyles.css
+--- a/Styles/Modules/tableStyles.css	
++++ b/Styles/Modules/tableStyles.css	
+@@ -6,7 +6,7 @@
+ .grid-table {
+     display: grid;
+     border-color:#000;
+-    border-width: 2px 2px;
++    border-width: 1px;
+     border-style: dashed;
+     grid-template-columns:
+         minmax(200px, auto)
